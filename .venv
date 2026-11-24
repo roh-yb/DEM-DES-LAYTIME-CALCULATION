@@ -1,0 +1,17 @@
+home = C:\Users\USER\AppData\Local\Programs\Python\Python312
+include-system-site-packages = false
+version = 3.12.10
+executable = C:\Users\USER\AppData\Local\Programs\Python\Python312\python.exe
+command = C:\Users\USER\AppData\Local\Programs\Python\Python312\python.exe -m venv C:\Users\USER\Desktop\조체선료 자동 정산 TOOL\.venv
+
+# 버전 고정: 2026-11-24 에 pytest 74건 통과 + 앱 실행(샘플 USD 4,687.50)을 확인한 조합.
+# "~=X.Y.Z" 는 X.Y.* 패치 업데이트만 허용한다. 올릴 때는 테스트·Playwright 검토 후 함께 갱신할 것.
+streamlit~=1.67.0
+openai~=3.58.0
+python-dotenv~=1.2.4
+pandas~=3.1.1
+openpyxl~=3.1.5
+pdfplumber~=0.11.11
+pypdfium2~=5.15.2
+Pillow~=13.0.0
+holidays~=0.109
